@@ -23,7 +23,7 @@
 \\
 {\bf \{{consultant.name}}\\
 \{{consultant.address.street}}\\
-\{{consultant.address.city}}, \\{{consultant.address.postcode}}\\}
+\{{consultant.address.city}}, \{{consultant.address.postcode}}\\}
 \\
 (hereinafter the ``Consultant'').  This Agreement is with respect to the
 development of software for the Client, hereinafter referred to as the
@@ -178,7 +178,7 @@ her organization or business.\\\\
 On behalf of the Client: & \rule{6cm}{.2pt} & Date: \rule{2.4cm}{.2pt}\\
                          & \{{client.representative}}      & \\\\\\
 The Consultant:          & \rule{6cm}{.2pt} & Date: \rule{2.4cm}{.2pt}\\
-                         & \\{{consultant.name}}      & \\
+                         & \{{consultant.name}}      & \\
 \end{tabular}
 
 \end{document}
