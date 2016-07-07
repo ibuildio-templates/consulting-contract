@@ -24,3 +24,8 @@ sudo port install texlive
 ``` bash
 npm run build
 ```
+
+
+## Credits
+
+This project uses [A Consulting Contract Template for Hackers](https://github.com/shimon/consulting-contract-template)
