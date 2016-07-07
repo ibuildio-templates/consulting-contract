@@ -6,24 +6,24 @@
 \begin{document}
 
 \begin{center}
-{\Large Software Development and Consulting Services Agreement}
+{\Large {{title}} }
 \end{center}
 
 \hrule height .1mm
 
 \vspace{.5cm}
 
-\noindent This Agreement is dated and in effect as of the [Nth of MONTH, YEAR], between:\\
+\noindent This Agreement is dated and in effect as of the {{date}}, between:\\
 \\
-{\bf Client, LLC\\
-123 Anywhere St.\\
-Boston, MA 02345\\}
+{\bf {{client.name}}\\
+{{client.address.street}}\\
+{{client.address.city}}, {{client.address.postcode}}\\}
 \\
 (hereinafter the ``Client''), and\\
 \\
-{\bf Consultant Legal or Business Name\\
-456 Elsewhere St.\\
-Boston, MA 02123\\}
+{\bf {{consultant.name}}\\
+{{consultant.address.street}}\\
+{{consultant.address.city}}, {{consultant.address.postcode}}\\}
 \\
 (hereinafter the ``Consultant'').  This Agreement is with respect to the
 development of software for the Client, hereinafter referred to as the
@@ -176,9 +176,9 @@ her organization or business.\\\\
 
 \noindent \begin{tabular}{l l l}
 On behalf of the Client: & \rule{6cm}{.2pt} & Date: \rule{2.4cm}{.2pt}\\
-                         & CLIENT REPRESENTATIVE      & \\\\\\
+                         & {{client.representative}}      & \\\\\\
 The Consultant:          & \rule{6cm}{.2pt} & Date: \rule{2.4cm}{.2pt}\\
-                         & CONSULTANT NAME      & \\
+                         & {{consultant.name}}      & \\
 \end{tabular}
 
 \end{document}

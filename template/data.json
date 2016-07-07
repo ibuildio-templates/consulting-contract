@@ -1,0 +1,23 @@
+{
+  "title": "Software Development and Consulting Services Agreement",
+  "date": "[Nth of MONTH, YEAR]",
+  "consultant": {
+  "name": "Consultant Legal or Business Name.",
+  "address": {
+      "street": "456 Elsewhere St.",
+      "city": "Boston",
+      "country": "United States",
+      "postcode": "MA 02123"
+    }
+  },
+  "client": {
+    "name": " Client, LLC.",
+    "representative": "CLIENT REPRESENTATIVE",
+    "address": {
+        "street": "123 Anywhere St.",
+        "city": "Boston",
+        "country": "United States",
+        "postcode": "MA 02345"
+      }
+    }
+}

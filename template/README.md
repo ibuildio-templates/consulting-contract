@@ -1,7 +1,12 @@
 ```
-{{figlet (toUpperCase name)}}
+   ____ ___   ___  ____  
+  / ___/ _ \ / _ \|  _ \
+ | |  | | | | | | | |_) |
+ | |__| |_| | |_| |  __/
+  \____\___/ \___/|_|    
+
 ```
-> {{ description }}
+> Generic contract template
 
 
 ## Install
