@@ -1,6 +1,7 @@
 {
   "name": "consulting-contract",
   "version": "0.1.0",
+  "main": "index.js",
   "license": "MIT",
   "description": "A template for a simple software consulting contract",
   "author": "Adnan M.Sagar, PhD.",
