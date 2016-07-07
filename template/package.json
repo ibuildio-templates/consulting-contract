@@ -5,6 +5,9 @@
   "license": "MIT",
   "description": "A template for a simple software consulting contract",
   "author": "Adnan M.Sagar, PhD.",
+  "scripts": {
+    "build": "node index.js"
+  },
   "dependencies": {
     "latex": "*"
   }
