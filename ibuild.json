@@ -8,7 +8,7 @@
      "description": {
        "label": "Description",
        "type": "string",
-       "default": "Description goes here",
+       "default": "Generic contract template",
        "required": true
      }
    }
