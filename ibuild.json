@@ -1,0 +1,15 @@
+{
+  "prompts": {
+     "name": {
+       "label": "Name",
+       "type": "string",
+       "required": true
+     },
+     "description": {
+       "label": "Description",
+       "type": "string",
+       "default": "Description goes here",
+       "required": true
+     }
+   }
+}
