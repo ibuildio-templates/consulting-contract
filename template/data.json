@@ -1,6 +1,26 @@
 {
   "title": "Software Development and Consulting Services Agreement",
-  "date": "[Nth of MONTH, YEAR]",
+  "payment":"at the rate of {\\bf \\$[BILLIONS] / hour}",
+  "agreement": {
+    "governance":"Commonwealth of Massachusetts",
+    "jurisdiction": "Commonwealth"
+  },
+  "date": {
+    "contract": "[Nth day of MONTH, YEAR]",
+    "start": "[Nth day of MONTH, YEAR]",
+    "end": "[Nth day of LATER MONTH, YEAR -- {\\em you may also want to say that the end date is to be determined through mutual agreement or until such time as the contract is terminated per the terms described below}]"
+  },
+  "availability": {
+    "duration": "[MONTHS]. [This is where you note any vacations or schedule restrictions that you want to give the client early notice of]",
+    "hours": "[SOME REASONABLE NUMBER, IF THE CLIENT CARES]"
+  },
+  "product": {
+    "description" : {
+      "short": "[SHORT DESCRIPTION OF PRODUCT HERE]",
+      "full": "[FULL DESCRIPTION OF PRODUCT HERE]"
+    },
+    "features": "[KEY FEATURES IF DESIRED]"
+  },
   "consultant": {
   "name": "Consultant Legal or Business Name.",
   "address": {

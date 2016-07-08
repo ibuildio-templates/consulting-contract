@@ -1,12 +1,7 @@
 ```
-   ____ ___   ___  ____  
-  / ___/ _ \ / _ \|  _ \
- | |  | | | | | | | |_) |
- | |__| |_| | |_| |  __/
-  \____\___/ \___/|_|    
-
+{{figlet (toUpperCase name)}}
 ```
-> Generic contract template
+> Generic data-driven consultant contract template
 
 
 ## Install
