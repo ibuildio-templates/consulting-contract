@@ -3,7 +3,6 @@
 ```
 > Generic data-driven consultant contract template
 
-
 ## Install
 
 To install latex on linux,
@@ -16,6 +15,12 @@ On OS X, install [MacPorts](http://www.macports.org/) first then,
 
 ```bash
 sudo port install texlive
+```
+
+Install npm modules
+
+```bash
+npm install
 ```
 
 
