@@ -6,24 +6,24 @@
 \begin{document}
 
 \begin{center}
-{\Large {{title}} }
+{\Large \{{title}} }
 \end{center}
 
 \hrule height .1mm
 
 \vspace{.5cm}
 
-\noindent This Agreement is dated and in effect as of the {{date.contract}}, between:\\
+\noindent This Agreement is dated and in effect as of the \{{date.contract}}, between:\\
 \\
-{\bf {{client.name}}\\
-{{client.address.street}}\\
-{{client.address.city}}, {{client.address.postcode}}\\}
+{\bf \{{client.name}}\\
+\{{client.address.street}}\\
+\{{client.address.city}}, \{{client.address.postcode}}\\}
 \\
 (hereinafter the ``Client''), and\\
 \\
-{\bf {{consultant.name}}\\
-{{consultant.address.street}}\\
-{{consultant.address.city}}, {{consultant.address.postcode}}\\}
+{\bf \{{consultant.name}}\\
+\{{consultant.address.street}}\\
+\{{consultant.address.city}}, \{{consultant.address.postcode}}\\}
 \\
 (hereinafter the ``Consultant'').  This Agreement is with respect to the
 development of software for the Client, hereinafter referred to as the
@@ -37,9 +37,9 @@ parties hereto agree as follows:
 
 \section{Services}
 
-Consultant will provide software development services for a {{product.description.short}}.  Components and features of this site will
+Consultant will provide software development services for a \{{product.description.short}}.  Components and features of this site will
 be determined collaboratively by Client and Consultant, and are expected to
-include {{product.features}}.
+include \{{product.features}}.
 
 Consultant's responsibilities will include collaborating with Client to
 establish software requirements and priorities based on Client's business
@@ -55,7 +55,7 @@ to support this collaboration.
 \section{Compensation and Payment}
 
 In consideration of the Consultant's services, Client will pay
-Consultant {{payment}}.
+Consultant \{{payment}}.
 
 Consultant will provide an invoice to the Client at the end of each calendar
 month, indicating time worked each day during that month and the
@@ -69,9 +69,9 @@ Client, will be indicated on the invoice and reimbursed at cost.
 
 The full length of this contract is as follows:
 
-Starting date is the {{date.start}} and end date is the {{date.end}}.
+Starting date is the \{{date.start}} and end date is the \{{date.end}}.
 
-During this period, Consultant will guarantee availability of at least {{availability.hours}}
+During this period, Consultant will guarantee availability of at least \{{availability.hours}}
 hours per week for work on tasks selected by the Client.  Client and
 Consultant will review this time guarantee every two weeks and may adjust it
 as agreed upon with two weeks notice.
@@ -84,7 +84,7 @@ weeks when the Consultant is unable to work.
 The Consultant and Client may specify, by advance written agreement, that no
 work shall be performed and no charges assessed during certain periods when
 either party is unavailable.  At present, Consultant expects to be available
-for the full guaranteed time through {{availability.duration}}.
+for the full guaranteed time through \{{availability.duration}}.
 
 
 \section{Termination}
@@ -161,9 +161,9 @@ other provision or waiver of the same provision at any other time.
 
 
 This Agreement shall be governed by and construed in accordance with the
-laws of the {{agreement.governance}}, and both parties hereby consent
+laws of the \{{agreement.governance}}, and both parties hereby consent
 to the exclusive jurisdiction and venue of the state and federal courts of
-the {{agreement.jurisdiction}}. Additionally, the parties also agree and consent to
+the \{{agreement.jurisdiction}}. Additionally, the parties also agree and consent to
 process within or without said jurisdiction by certified mail requiring a
 signed receipt.
 
@@ -174,9 +174,9 @@ her organization or business.\\\\
 
 \noindent \begin{tabular}{l l l}
 On behalf of the Client: & \rule{6cm}{.2pt} & Date: \rule{2.4cm}{.2pt}\\
-                         & {{client.representative}}      & \\\\\\
+                         & \{{client.representative}}      & \\\\\\
 The Consultant:          & \rule{6cm}{.2pt} & Date: \rule{2.4cm}{.2pt}\\
-                         & {{consultant.name}}      & \\
+                         & \{{consultant.name}}      & \\
 \end{tabular}
 
 \end{document}
