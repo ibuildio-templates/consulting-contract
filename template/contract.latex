@@ -131,9 +131,11 @@ permission or previous release was requested or uses which exceed the uses
 allowed pursuant to a permission or release.
 
 
+{{#if copyright}}
 \section{Copyright Notice [OPTIONAL - may also be a `work for hire' assignment - hack as appropriate]}
 
 Copyright on Work is in Consultant's name.  Consultant reserves the right to incorporate the Work into projects for clients other than the Client, and reserves the right to license the Work (or components thereof) on terms of Consultant's choice without restriction.
+{{/if}}
 
 
 \section{Independent Contractor}
