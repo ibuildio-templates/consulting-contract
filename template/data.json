@@ -19,7 +19,10 @@
       "short": "[SHORT DESCRIPTION OF PRODUCT HERE]",
       "full": "[FULL DESCRIPTION OF PRODUCT HERE]"
     },
-    "features": "[KEY FEATURES IF DESIRED]"
+    "features": [
+      "Feature 1",
+      "Feature 2"
+    ]
   },
   "consultant": {
   "name": "Consultant Legal or Business Name.",

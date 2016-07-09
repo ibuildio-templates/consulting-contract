@@ -37,9 +37,9 @@ parties hereto agree as follows:
 
 \section{Services}
 
-Consultant will provide software development services for a \{{product.description.short}}.  Components and features of this site will
+Consultant will provide software development services for a``\{{product.description.short}}''.  Components and features of this site will
 be determined collaboratively by Client and Consultant, and are expected to
-include \{{product.features}}.
+include \begin{enumerate}\{{#each product.features}}\item \{{this}}\{{/each}}\end{enumerate}
 
 Consultant's responsibilities will include collaborating with Client to
 establish software requirements and priorities based on Client's business
