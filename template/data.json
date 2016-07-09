@@ -1,7 +1,10 @@
 {
   "title": "Software Development and Consulting Services Agreement",
   "copyright":true,
-  "payment":"at the rate of {\\bf \\$[BILLIONS] / hour}",
+  "payment": {
+    "description":"at the rate of {\\bf \\$[BILLIONS] / hour}",
+    "due": "thirty (30) days"
+  },
   "agreement": {
     "governance":"Commonwealth of Massachusetts",
     "jurisdiction": "Commonwealth"

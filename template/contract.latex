@@ -55,12 +55,12 @@ to support this collaboration.
 \section{Compensation and Payment}
 
 In consideration of the Consultant's services, Client will pay
-Consultant \{{payment}}.
+Consultant \{{payment.description}}.
 
 Consultant will provide an invoice to the Client at the end of each calendar
 month, indicating time worked each day during that month and the
 amount due.  Payment will be made to Consultant in US dollars, by check or
-wire transfer, within thirty (30) days of receipt of the invoice.  Travel,
+wire transfer, within \{{payment.due}} of receipt of the invoice.  Travel,
 living and any related out-of-pocket expenses, if authorized in writing by
 Client, will be indicated on the invoice and reimbursed at cost.
 
@@ -95,7 +95,7 @@ terminated at the request of the Client, Consultant shall have the right to
 bill %pro rata
 for work completed through the date of that request, while
 reserving all rights under this Agreement. If additional payment is due,
-this shall be payable within thirty days of the Client's written
+this shall be payable within \{{payment.due}} of the Client's written
 notification to stop work. In the event of termination, the Client shall
 also pay any expenses incurred by Consultant.  The Client shall assume
 responsibility for all collection of legal fees necessitated by default in
