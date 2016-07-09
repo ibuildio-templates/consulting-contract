@@ -58,7 +58,7 @@ In consideration of the Consultant's services, Client will pay
 Consultant \{{payment.description}}.
 
 Consultant will provide an invoice to the Client at the end of each calendar
-month, indicating time worked each day during that month and the
+month or as appropriate, indicating time worked each day during that month or work performed and the
 amount due.  Payment will be made to Consultant in US dollars, by check or
 wire transfer, within \{{payment.due}} of receipt of the invoice.  Travel,
 living and any related out-of-pocket expenses, if authorized in writing by
@@ -71,10 +71,12 @@ The full length of this contract is as follows:
 
 Starting date is the \{{date.start}} and end date is the \{{date.end}}.
 
-During this period, Consultant will guarantee availability of at least \{{availability.hours}}
-hours per week for work on tasks selected by the Client.  Client and
+\{{#if availability.hours}}
+During this period, Consultant will guarantee availability of at least\textbf{ \{{availability.hours}}
+hours} per week for work on tasks selected by the Client.  Client and
 Consultant will review this time guarantee every two weeks and may adjust it
 as agreed upon with two weeks notice.
+\{{/if}}
 
 Should the Consultant be rendered unable to work by illness, injury, or
 emergency, the Consultant will notify Client at Consultant's earliest
@@ -131,11 +133,6 @@ permission or previous release was requested or uses which exceed the uses
 allowed pursuant to a permission or release.
 
 
-{{#if copyright}}
-\section{Copyright Notice [OPTIONAL - may also be a `work for hire' assignment - hack as appropriate]}
-
-Copyright on Work is in Consultant's name.  Consultant reserves the right to incorporate the Work into projects for clients other than the Client, and reserves the right to license the Work (or components thereof) on terms of Consultant's choice without restriction.
-{{/if}}
 
 
 \section{Independent Contractor}
